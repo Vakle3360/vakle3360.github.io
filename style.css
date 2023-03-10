@@ -48,20 +48,39 @@ a#button{
 }
 
 @media only screen and (max-width : 1000px) {
+    #list{
+        display: contents;
+    }
     #quote{
+        margin-left: auto;
         font-size: 3vh;
-        width: 60vh;
+        width: 99%;
         border: .2vh solid #5E7A8A;
-        margin-left: 3vh;
         margin-bottom: 1vh;
         border-radius: 2vh;
     }
     #quoteName{
         font-size: 3vh;
-        width: 60vh;
+        width: 99%;
         border: .1vh solid #E63946;
-        margin-left: 3vh;
         margin-bottom: 1vh;
         border-radius: 2vh;
+        margin-left: auto;
+    }
+    a{
+        margin: 2vh;
+        margin-top: 2vh;
+        font-size: 3vh;
+        text-decoration: none;
+        color: black;
+    }
+    
+    a#button{
+        margin: 2vh;
+        margin-top: 2vh;
+        border: #5E7A8A 1vh solid;
+        border-radius: 2vh;
+        background-color: #5E7A8A;
+        color: #2F4858;
     }
 }
