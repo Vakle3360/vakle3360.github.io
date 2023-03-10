@@ -101,4 +101,23 @@ a#button{
         background-color: #D3D3D3;
         color: #333333;
     }
+
+    #button{
+        margin: 2vh;
+        font-size: 3vh;
+        border: #D3D3D3 1vh solid;
+        border-radius: 2vh;
+        background-color: #D3D3D3;
+        color: #333333;
+    }
+    
+    #access{
+        margin: 2vh;
+        color: #333333;
+        font-size: 3vh;
+        width: 20vh;
+        border: .2vh solid #D3D3D3;
+        margin-top: 3vh;
+        border-radius: 2vh;
+    }
 }
