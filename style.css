@@ -1,7 +1,38 @@
+*{
+    background-color: #2F4858;
+    font-family: Verdana;
+}
+
 #quote{
     text-align: center;
     width: 20vh;
-    border: .1vh solid black;
+    border: .1vh solid #5E7A8A;
     margin-left: 3vh;
     margin-bottom: 1vh;
+    color: #2F4858;
+    background-color: #5E7A8A;
+    border-radius: 2vh;
+}
+
+#quoteName{
+    text-align: center;
+    font-weight: bold;
+    width: 20vh;
+    border: .1vh solid #E63946;
+    margin-left: 3vh;
+    margin-bottom: 1vh;
+    background-color: #E63946;
+    border-radius: 2vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a#button{
+    border: #5E7A8A 1vh solid;
+    border-radius: 2vh;
+    background-color: #5E7A8A;
+    color: #2F4858;
 }
