@@ -6,12 +6,16 @@
 #quote{
     text-align: center;
     width: 20vh;
-    border: .1vh solid #5E7A8A;
+    border: .2vh solid #5E7A8A;
     margin-left: 3vh;
     margin-bottom: 1vh;
     color: #2F4858;
     background-color: #5E7A8A;
     border-radius: 2vh;
+}
+
+#list{
+    display: flex;
 }
 
 #quoteName{
