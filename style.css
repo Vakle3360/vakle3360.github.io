@@ -1,7 +1,13 @@
+/*
+60 - Primary color: #2F4858 (dark blue)
+30 - Secondary color: #5E7A8A (light blue)
+10 - Accent color: #E63946 (red)
+*/
+
 *{
     background-color: #2F4858;
     font-family: Verdana;
-}
+}   
 
 #quote{
     text-align: center;
@@ -39,4 +45,23 @@ a#button{
     border-radius: 2vh;
     background-color: #5E7A8A;
     color: #2F4858;
+}
+
+@media only screen and (max-width : 1000px) {
+    #quote{
+        font-size: 3vh;
+        width: 60vh;
+        border: .2vh solid #5E7A8A;
+        margin-left: 3vh;
+        margin-bottom: 1vh;
+        border-radius: 2vh;
+    }
+    #quoteName{
+        font-size: 3vh;
+        width: 60vh;
+        border: .1vh solid #E63946;
+        margin-left: 3vh;
+        margin-bottom: 1vh;
+        border-radius: 2vh;
+    }
 }
