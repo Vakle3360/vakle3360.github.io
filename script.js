@@ -1,41 +1,8 @@
-input = document.getElementById("field");
+input = document.getElementById("access");
 
-function plus() {
-    text = input.value;
-    input.value = text + " + "
-}
-
-function minus() {
-    text = input.value;
-    input.value = text + " - "
-}
-
-function multi() {
-    text = input.value;
-    input.value = text + " * "
-}
-
-function divi() {
-    text = input.value;
-    input.value = text + " / "
-}
-
-function para1() {
-    text = input.value;
-    input.value = text + "("
-}
-
-function para2() {
-    text = input.value;
-    input.value = text + ")"
-}
-
-function potens() {
-    text = input.value;
-    input.value = text + "^"
-}
-
-function root() {
-    text = input.value;
-    input.value = text + "^(1/ )"
+function access() {
+    if (input.value == "Val#2022")
+        input.value = ""
+        document.cookie="Expresso=38196u790uyf980y908auy9310uyr0fuy903u109u09u901u9un09fd7u390q7f097q90f8n903q8f09q"
+        console.log(document.cookie)
 }
