@@ -65,6 +65,59 @@ a#button{
     border-radius: 2vh;
 }
 
+#coolBox{
+    background: #D3D3D3;
+    width: 100%;
+    height: 20%;
+    border-radius: 4.9vh;
+    overflow: hidden;
+    float: left;
+}
+
+#profileBox{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 3vh;
+    border-radius: 4.9vh;
+    background: #FF7F50;
+    width: 40vh;
+}
+
+#profileTXT{
+    background: transparent;
+    text-align: center;
+    color: #333333;
+}
+
+#profileTXT.info{
+    margin-left: 60vh;
+    text-align: left;
+    position: relative;
+    top: -52vh;
+}
+
+#profileTXT.mail{
+    margin-left: 60vh;
+    text-align: left;
+    position: relative;
+    color: #FF7F50;
+    top: -18vh;
+}
+
+.role{
+    position: relative;
+    top: -2.5vh;
+}
+
+img{
+    margin-left: 2.5vh;
+    margin-top: 2.5vh;
+    background: transparent ;
+    max-width: 35vh;
+    height: auto;
+}
+
+
 @media only screen and (max-width : 1000px) {
     
     #list{
@@ -119,5 +172,49 @@ a#button{
         border: .2vh solid #D3D3D3;
         margin-top: 3vh;
         border-radius: 2vh;
+    }
+
+
+    #coolBox{
+        width: 100%;
+        height: 20%;
+        border-radius: 4.9vh;
+        overflow: hidden;
+        float: left;
+    }
+    
+    #profileBox{
+        margin-top: 1.5vh;
+        margin-bottom: 1.5vh;
+        margin-left: 1.5vh;
+        border-radius: 4.9vh;
+        width: 22.5vh;
+    }
+    
+    #profileTXT{
+        font-size: 3vh;
+    }
+
+    #profileTXT.info{
+        margin-left: 26vh;
+        top: -30vh;
+        font-size: 2vh;
+    }
+    
+    #profileTXT.mail{
+        font-size: 2vh;
+        margin-left: 26 vh;
+        top: -18vh;
+    }
+    
+    #profileTXT.role{
+        top: -2.5vh;
+        font-size: 2vh;
+    }
+    
+    img{
+        margin-left: 1.25vh;
+        margin-top: 1.25vh;
+        max-width: 20vh;
     }
 }
