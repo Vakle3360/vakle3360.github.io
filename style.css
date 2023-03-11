@@ -202,9 +202,9 @@ img{
     }
     
     #profileTXT.mail{
-        font-size: .7vh;
+        font-size: 2vh;
         margin-left: 26vh;
-        top: -25vh;
+        top: -18vh;
     }
     
     #profileTXT.role{
