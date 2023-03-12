@@ -3,6 +3,10 @@
     font-family: Verdana;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 #nbi{
     display: block;
     margin-left: auto;
