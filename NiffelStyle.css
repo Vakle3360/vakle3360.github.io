@@ -1,0 +1,67 @@
+* {
+    background-color: #1A1D2E;
+    font-family: Verdana;
+}
+
+#nbi{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vh;
+    height: auto;
+}
+
+.box{
+    border-radius: 2vh;
+}
+
+#biggerBox{
+    margin-top: 4vh;
+    width: 100%;
+    background-color: #424242;
+    color: white;
+    font-size: 4vh;
+}
+
+#redBox {
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C62828;
+}
+
+#text{
+    background-color: transparent;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#CredBox {
+    margin-top: 60vh;
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C62828;
+    color: white;
+    font-size: 4vh;
+    border: none;
+}
+
+p{
+    margin: 2vh;
+    background-color: transparent;
+}
+
+@media only screen and (max-width : 1000px) {
+    *{
+        font-size: 2vh;
+    }
+}
