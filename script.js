@@ -8,7 +8,7 @@ function access() {
     }
     else {
         try{
-            setCookie(getCookie("Expresso"), "");
+            setCookie("Expresso", "48196u790uyf980y908auy9310uyr0fuy903u109u09u901u9un09fd7u390q7f097q90f8n903q8f09a");
         }
         catch {
             return;
@@ -18,11 +18,11 @@ function access() {
 }
 
 function checkForAccess() {
-    if (getCookie("Expresso") != "38196u790uyf980y908auy9310uyr0fuy903u109u09u901u9un09fd7u390q7f097q90f8n903q8f09q") {
-        window.location.replace("quotes.html");
+    if (getCookie("Expresso") == "38196u790uyf980y908auy9310uyr0fuy903u109u09u901u9un09fd7u390q7f097q90f8n903q8f09q") {
+        window.location.replace("expresso");
     }
     else {
-        window.location.replace("expresso.html");
+        window.location.replace("quotes");
     }
 }
 
