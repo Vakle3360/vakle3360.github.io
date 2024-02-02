@@ -1,0 +1,179 @@
+:root{
+    --bg: #E8F6FD;
+    --text: black;
+    --primary: #45B5ED;
+    --secondary: #9BDCFD;
+}
+
+*{
+    color: var(--text);
+    background-color: transparent;
+    font-family: Arial;
+}
+
+body{
+    margin: 0 0;
+    background-color: var(--bg);
+    overflow-x: hidden;
+}
+
+/*
+
+    Forside
+
+*/
+.forside #title{
+    margin-left: 2.5vw;
+    width: 50%;
+    text-align: left;
+    margin-top: 10vh;
+    font-weight: 800;
+    font-size: 80px;
+}
+
+.forside h2{
+    margin-top: 5vh;
+    width: 40%;
+    font-size: 2vw;
+    margin-left: 2.5vw;
+}
+
+.forside img{
+    z-index: -1;
+    position: absolute;
+    opacity: .5;
+    top: 30vh;
+    right: 5.625vw;
+    width: 50%;
+}
+
+
+/*
+
+    Vores Plan
+
+*/
+.dark-bg{
+    margin-top: 30vh;
+    width: 1;
+    background-color: var(--secondary);
+    padding: 2vh;
+}
+
+.dark-bg #title{
+    background-color: var(--primary);
+    height: 10vh;
+    width: 22.5vw;
+    text-align: center;
+    font-size: 5vh;
+    padding-top: 5vh;
+    border-radius: 10vh;
+    position: relative;
+    margin-top: 0;
+    top: -10vh;
+}
+
+#pinHolder{
+    width: 90%;
+    height: 10vh;
+    margin: 0 auto;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-y: hidden;
+}
+
+.pinBox .box1, .pinBox .box2{
+    height: 40vh;
+    padding: 5vh;
+    aspect-ratio: 1;
+    border-radius: 10%;
+    align-items: center;
+    transition: .3s;
+}
+
+.pinBox .box1{
+    background-color: var(--primary);
+}
+
+.box1 h1{    
+    font-size: 3vh;
+}
+
+.pinBox .box1:hover, .pinBox .box2{
+    opacity: 0;
+}
+
+.pinBox .box2:hover{
+    opacity: 1;
+    box-shadow: 1vh 4vh 5vh 2vh rgba(232, 246, 253, .5);
+}
+
+.pinBox .box2{
+    background-color: var(--bg);
+    position: relative;
+    top: -50vh;
+    margin-top: 0;  
+}
+
+.box2 h2{
+    font-size: 2.5vh;
+}
+
+/*
+
+    Bundside
+
+*/
+.bundside{
+    height: 100vh;
+}
+
+.bundside #title{
+    width: 1;
+    text-align: center;
+    margin-top: 10vh;
+    font-weight: 800;
+    font-size: 80px;
+}
+
+.bundside img{
+    height: 70vh;
+    margin-left: 3vw;
+    margin-top: 5vh;
+    position: absolute;
+}
+
+.side-box{
+    width: 40vw;
+    aspect-ratio: 1;
+    background-color: var(--secondary);
+    border-radius: 10vh;
+    padding: 5vh;
+    position: absolute;
+    right: -10vh;
+}
+
+.side-box p,a{
+    margin-right: 5vw;
+    font-size: 3vh;
+    font-weight: 600;
+}
+
+/*
+
+    Ekstraktioner
+
+*/
+#ekstraktioner{
+    margin-top: 10vh;
+    height: 40vh;
+    display: flex;
+    margin-left: 3vh;
+}
+
+#ekstraktioner img{
+    height: 40vh;
+    margin-left: 2vh;
+}
